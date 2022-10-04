@@ -28,7 +28,6 @@ $ cert-issuer -h
 ```
 
 ## Issuer Setup
-
 1. issuerの情報を did:web メソッドで resolve できるようにする。
   - Ethereumの秘密鍵を指定してJWK形式の公開鍵に変換する
 ```sh
@@ -43,10 +42,9 @@ $ node scripts/convert-did-public-key.js ./keys/wallet-private.dev.key
 4. RevocationListファイルを作成する
   - 参考: `hostings/staging/public/blockcerts_revocation_list.json`
 5. 手順2,3,4で作成したファイルをホスティングする。
-  - 参考: `hostings/staging/README.md`
+  - 参考: `hostings/staging/README.md`  
 
 ## 証明書発行ワークフロー
-
 ### VC発行フロー
 
 1. GoogleFormからJSONに変換
