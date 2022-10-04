@@ -35,6 +35,7 @@ $ cert-issuer -h
 $ node scripts/convert-did-public-key.js ./keys/wallet-private.dev.key
 {"kty":"EC","crv":"K-256","x":"QgCpmS5rwy23Dqm3iYNGn_A_p5JYXOSbyp_ev1Uss7E","y":"lGIvZO81bLTeH0-XmjQlrhAWOC79utg3aC5BV5amAsI"}
 ```
+* `./keys/wallet-private.dev.key` に秘密鍵を配置して下さい
 2. did.json を作成する (上記の公開鍵情報を含める)
   - 参考: `hostings/staging/public/.well-known/did.json`
 3. IssuerProfileファイルを作成する
