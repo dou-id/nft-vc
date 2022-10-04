@@ -20,6 +20,11 @@ const {
   getTokenJapaneseDescription,
 } = require("./utils")
 
+const {
+  ISSUER_DID_PRD,
+  ISSUER_DID_DEV
+} = process.env
+
 const OUPUT_UNSIGNED_VC_DIR = path.join(
   __dirname,
   "../output/unsigned_certificates"
@@ -29,8 +34,8 @@ const OUPUT_SIGNED_VC_DIR = path.join(
   "../output/blockchain_certificates"
 )
 const issuerDID = isProduction()
-  ? "did:web:vcs.it-chiba.ac.jp"
-  : "did:web:did.staging.sakazuki.xyz"
+  ? ISSUER_DID_PRD
+  : ISSUER_DID_DEV
 const UUID_PREFIX = "arn:uuid:"
 
 const TEMPLATE_VC = {

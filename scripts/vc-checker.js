@@ -1,5 +1,5 @@
 //
-// deploys NFTCredential contract.
+// for decode proofValue and check
 //
 // How to use:
 // $ node scripts/vc-checker {{proofValue}}

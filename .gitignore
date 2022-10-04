@@ -4,8 +4,6 @@ venv
 tmp/*
 !tmp/.keep
 
-.env.*
-
 keys/*
 !keys/.keep
 !keys/wallet-private.dev.key
