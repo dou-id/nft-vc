@@ -1,0 +1,23 @@
+{
+    "id": "did:web:did.staging.sakazuki.xyz",
+    "verificationMethod": [
+        {
+            "id": "#key-1",
+            "controller": "did:web:did.staging.sakazuki.xyz",
+            "type": "EcdsaSecp256k1VerificationKey2019",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "crv": "K-256",
+                "x": "QgCpmS5rwy23Dqm3iYNGn_A_p5JYXOSbyp_ev1Uss7E",
+                "y": "lGIvZO81bLTeH0-XmjQlrhAWOC79utg3aC5BV5amAsI"
+            }
+        }
+    ],
+    "service": [
+        {
+            "id": "#service-1",
+            "type": "IssuerProfile",
+            "serviceEndpoint": "https://did.staging.sakazuki.xyz/blockcerts.json"
+        }
+    ]
+}

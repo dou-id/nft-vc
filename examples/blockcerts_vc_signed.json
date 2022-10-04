@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/blockcerts/v3"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "arn:uuid:5a43e835-66bb-4212-af5c-fc6b25a51c9b",
+    "issuer": "did:web:did.staging.sakazuki.xyz",
+    "issuanceDate": "2022-07-01T08:56:28Z",
+    "display": {
+        "contentMediaType": "text/html",
+        "content": "<div><!-- TODO: DESIGN --><h1>This is VC's HTML.</h1><h2>StudentID: PITPA2022001</h2></div>"
+    },
+    "nonce": "e6cafaae-76e7-445e-86fe-bbf48902be49",
+    "credentialSubject": {
+        "id": "did:ethr:0x961e96A884E72198816152c283C5C9359aF50B67"
+    },
+    "proof": {
+        "type": "MerkleProof2019",
+        "created": "2022-07-01T17:58:32.630927",
+        "proofValue": "zG7NYSuZNGpSXiZ7iKV3RrcKpxixxskb9CN3h69g1cPxqi6e9ob6TSJmBnx4D8Gmc79hv9UVijVkG4N4DwPGC9nG9rgvMTexuSot2Y7XNGsj3ypERNYTKeAFMtfHw5rhrj78PfZaQrFfjNWLh1PK2Askmgtd8bcCMRXXpv3k5QU6LGoZZdHGZHTkzgy4RtF7whk7Y5mu6PgyqspiGUXs7Fioa2ga7ff5DWTuoJ79FJVP8zdftK7X5wCrPoyrzqZYxM4TP8hw9NsjyFJazCA8Ey12bk2kVLPAqSigLuDZrZ2KMb5QbspxN9qpsjm8zPrVa9R2NzxKU2gVMQf3jzUQeJV3U9qjfE196ZVdy6pePkR6PyXgracaXJ966DgWWNLjsyk1BtKiTuXFEqhqt6F1GBq8WLYMZEFb83x6TJ9tCwBKy3aZpYWpUvRyWQH588EzD6qaEiirVuL2Bp8HMcPiUetsnkmDcVyqP694bC6AqAQMniWfxPbJs",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:did.staging.sakazuki.xyz#key-1"
+    }
+}
