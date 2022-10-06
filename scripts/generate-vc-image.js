@@ -67,7 +67,6 @@ const generate = async (member, notoFontData) => {
 
   // replace each placeholder with member's info
   const svg = template
-    .replaceAll("{{FONT_NOTO_SANS_LIGHT}}", notoFontData)
     .replaceAll("{{CREDENTIAL_NAME}}", member.credential_name)
     .replaceAll("{{HOLDER_NAME}}", member.holder_name)
     .replaceAll(
