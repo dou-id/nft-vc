@@ -35,7 +35,7 @@ const mLength = (str) => {
   return len
 }
 
-// 直線 "y = ax + b" で いい感じのfontSizeを導く関数
+// 直線 "y = ax + b" で最適なfontSizeを導く関数
 const getHolderNameFontSize = (holderName) => {
   const MAX_FONT_SIZE = 1
 

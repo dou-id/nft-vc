@@ -5,8 +5,8 @@
 // $ node scripts/convert-base64-image.js <image-file-path> <jpeg|png>
 //
 // e.g.
-// $ node scripts/convert-base64-image.js ./examples/pitpa-logo.jpg jpeg
-// $ node scripts/convert-base64-image.js ./examples/pitpa-logo.png png
+// $ node scripts/convert-base64-image.js ./examples/logo.jpg jpeg
+// $ node scripts/convert-base64-image.js ./examples/logo.png png
 //
 
 const imageFilepath = process.argv[2]

@@ -165,7 +165,6 @@ async function main() {
         )}(${TOKEN_SYMBOL})`,
         logPrefix
       )
-      // console.log(result); // for DEBUG
       ok.push(batchIndex)
     } else {
       if (result.receipt && result.receipt.gasUsed) {

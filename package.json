@@ -1,6 +1,6 @@
 {
-  "name": "credentials",
-  "version": "1.0.0",
+  "name": "nft-vc",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@vaultie/lds-merkle-proof-2019": "^0.0.9"
   },
