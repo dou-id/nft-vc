@@ -1,0 +1,38 @@
+{
+  "name": "nft-vc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha.js tests/scripts",
+    "test_contracts": "npx hardhat test --network localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vaultie/lds-merkle-proof-2019": "^0.0.9"
+  },
+  "devDependencies": {
+    "@alch/alchemy-web3": "^1.4.4",
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.0",
+    "@pinata/sdk": "^1.1.26",
+    "@trust/keyto": "^1.0.1",
+    "canvas": "^2.9.3",
+    "canvg": "^4.0.1",
+    "chai": "^4.3.6",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.1",
+    "erc721a": "^4.2.0",
+    "ethereum-waffle": "^3.2.0",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.0",
+    "mocha": "^10.0.0",
+    "node-canvas": "^2.9.0",
+    "uuid": "^8.3.2",
+    "xmldom": "^0.6.0"
+  }
+}

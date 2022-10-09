@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://w3id.org/openbadges/v2",
+    "https://w3id.org/blockcerts/3.0"
+  ],
+  "type": "Profile",
+  "id": "https://nft-vc.example.com/blockcerts.json",
+  "name": "PitPa, Inc.",
+  "url": "https://nft-vc.example.com/",
+  "publicKey": [
+    {
+      "id": "ecdsa-koblitz-pubkey:0x1234567890123456789012345678901234567890",
+      "created": "2022-10-10T10:00:00.000000+00:00"
+    }
+  ],
+  "revocationList": "https://nft-vc.example.com/blockcerts_revocation_list.json",
+  "image": ""
+}
