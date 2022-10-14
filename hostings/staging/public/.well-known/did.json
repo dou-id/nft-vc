@@ -1,15 +1,15 @@
 {
-  "id": "did:web:did.staging.sakazuki.xyz",
+  "id": "did:web:halsk.xyz",
   "verificationMethod": [
     {
       "id": "#key-1",
-      "controller": "did:web:nft-vc.example.com",
+      "controller": "did:web:nft-vc.halsk.xyz",
       "type": "EcdsaSecp256k1VerificationKey2019",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "K-256",
-        "x": "XyZpmS5rwy23Dqm3iYNGn_A_p5JYXOSbyp_ev1Uss7E",
-        "y": "XyZvZO81bLTeH0-XmjQlrhAWOC79utg3aC5BV5amAsI"
+        "x": "KluHpFfayazgMllj80-s",
+        "y": "tsFkD6ZniA1X7E2foQVp"
       }
     }
   ],
@@ -17,7 +17,7 @@
     {
       "id": "#service-1",
       "type": "IssuerProfile",
-      "serviceEndpoint": "https://nft-vc.example.com/blockcerts.json"
+      "serviceEndpoint": "https://nft-vc.halsk.xyz/blockcerts.json"
     }
   ]
 }
