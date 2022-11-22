@@ -16,12 +16,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 module.exports = {
   solidity: "0.8.4",
-  defaultNetwork: "rinkeby",
+  defaultNetwork: "goerli",
   networks: {
-    rinkeby: {
-      url: process.env.RINKEBY_ALCHEMY_URL,
-      accounts: [process.env.PRIVATE_KEY],
-    },
     goerli: {
       url: process.env.GOERLI_ALCHEMY_URL,
       accounts: [process.env.PRIVATE_KEY],
@@ -41,7 +37,6 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      rinkeby: process.env.ETHERSCAN_API_TOKEN,
       goerli: process.env.ETHERSCAN_API_TOKEN,
       mainnet: process.env.ETHERSCAN_API_TOKEN,
       polygonMumbai: process.env.POLYGONSCAN_API_TOKEN,
