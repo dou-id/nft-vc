@@ -81,9 +81,6 @@ $ node scripts/generate-unsigned-vc.js ./tmp/members.json
 4. VC 発行
 
 ```sh
-# dev (ropsten)
-$ cert-issuer -c cert-issuer.dev.ini --chain ethereum_ropsten --ropsten_rpc_url $ROPSTEN_INFURA_URL
-
 # dev (goerli)
 $ cert-issuer -c cert-issuer.dev.ini --chain ethereum_goerli --goerli_rpc_url $GOERLI_ALCHEMY_URL
 
@@ -169,7 +166,7 @@ $ npx hardhat test --network localhost
 テストネット環境でテスト実行
 
 ```sh
-$ npx hardhat test --network rinkeby|goerli
+$ npx hardhat test --network goerli
 ```
 
 ※ ガス代結構かかるので注意。
