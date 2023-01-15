@@ -80,6 +80,11 @@ const main = async () => {
     return
   }
 
+  if (!issuerDID) {
+    console.log("[ERROR] ENV ISSUER_DID is not set.")
+    return
+  }
+
   const membersJsonPath = process.argv[2]
   const members = JSON.parse(fs.readFileSync(membersJsonPath, "utf8"))
 
