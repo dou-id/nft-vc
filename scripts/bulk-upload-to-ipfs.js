@@ -35,6 +35,11 @@ async function main() {
     return
   }
 
+  if (!PINATA_API_KEY || !PINATA_SECRET_API_KEY) {
+    console.log("[ERROR] PINATA_API_KEY or PINATA_SECRET_API_KEY is not set.")
+    return
+  }
+
   const membersJsonPath = process.argv[2]
   const members = JSON.parse(fs.readFileSync(membersJsonPath, "utf8"))
 
